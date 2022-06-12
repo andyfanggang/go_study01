@@ -1,0 +1,9 @@
+PS D:\Go\src\wm-motor.com\Infra\cobratest> go run .\main.go word -s =eddycjy -m=1
+2022/06/12 17:50:48 输出结果: =EDDYCJY
+PS D:\Go\src\wm-motor.com\Infra\cobratest> go run .\main.go word -s =EDDYCJY -m=2
+2022/06/12 17:51:10 输出结果: =eddycjy
+PS D:\Go\src\wm-motor.com\Infra\cobratest> go run .\main.go word -s =EDDYCJY -m=3
+2022/06/12 17:51:23 输出结果: =EDDYCJY
+PS D:\Go\src\wm-motor.com\Infra\cobratest> go run .\main.go word -s =EDD_yCJY -m=3
+2022/06/12 17:51:36 输出结果: =EDDYCJY
+PS D:\Go\src\wm-motor.com\Infra\cobrates
